@@ -20,9 +20,11 @@ def autentifikuj():
 hraci = {}
 
 if(autentifikuj()):
+    # hash hesla
     print(open("zadanie.txt").read())
     while(True):
         prikaz = input().split()
+        # prazdny riadok
         if(len(prikaz) == 0):
             continue
         elif(prikaz[0] == "points"):
