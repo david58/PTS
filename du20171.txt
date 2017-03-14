@@ -26,14 +26,3 @@ quit
 
 Ak užívateľ zadá príkazy points, reduce, category, a quit systém si najprv vypýta password
 a príkaz vykoná iba v prípade, že password je správny. 
-
-
-
-
-
-
-
-
-
-
-
