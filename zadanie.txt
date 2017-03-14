@@ -1,4 +1,3 @@
-Zadaj heslo!
 Zoznam príkazov:
 
 points <name> <number>
@@ -23,28 +22,3 @@ ranking junior
 quit
   Ukončí program.
   Vyžaduje heslo!
-
-Zadaj heslo!
-Zadaj heslo!
-Zadaj heslo!
-Zadaj heslo!
-Zadaj heslo!
-Zadaj heslo!
-Zadaj heslo!
-Zadaj heslo!
-Zadaj heslo!
-Zadaj heslo!
-Zadaj heslo!
-Zadaj heslo!
-Zadaj heslo!
-Zadaj heslo!
-Hrac5j 100
-Hrac4j 6
-Hrac3j 5
-Hrac6j 0
-Zadaj heslo!
-Hrac5j 95
-Hrac4j 5
-Hrac3j 4
-Hrac6j 0
-Zadaj heslo!
