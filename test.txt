@@ -1,0 +1,35 @@
+PTS123
+points Hrac1 5
+PTS123
+points Hrac1 6
+PTS123
+points Hrac2 100
+PTS123
+reduce 1
+PTS123
+points Hrac1 5
+PTS123
+points Hrac1 6
+PTS123
+points Hrac2 100
+PTS123
+points Hrac3j 5
+PTS123
+points Hrac4j 6
+PTS123
+points Hrac5j 100
+PTS123
+junior Hrac3j
+PTS123
+junior Hrac4j
+PTS123
+junior Hrac5j
+PTS123
+junior Hrac6j
+PTS123
+ranking junior
+reduce 5
+PTS123
+ranking junior
+quit
+PTS123
