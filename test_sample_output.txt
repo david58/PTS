@@ -1,0 +1,49 @@
+Zadaj heslo!
+Zoznam príkazov:
+
+points <name> <number>
+  Pridá hráčovi <name> <number> bodov. Číslo môže byť aj záporné.
+  Ak hráč <name> ešte nie je evidovaný, pridá ho do zoznamu s <number> bodmi.
+  Vyžaduje heslo!
+
+reduce <number>
+  Zníži počet bodov každého hráča o <number> percent. Výsledok sa zaokrúhli na celé čísla nadol.
+  Vyžaduje heslo!
+
+junior <name>
+  Označí, že hráč <name> je junior
+  Vyžaduje heslo!
+
+ranking
+  Vypíše celé poradie. Hráčov zoradí podľa počtu bodov.
+
+ranking junior
+  Vypíše poradie medzi juniormi.
+
+quit
+  Ukončí program.
+  Vyžaduje heslo!
+Zadaj heslo!
+Zadaj heslo!
+Zadaj heslo!
+Zadaj heslo!
+Zadaj heslo!
+Zadaj heslo!
+Zadaj heslo!
+Zadaj heslo!
+Zadaj heslo!
+Zadaj heslo!
+Zadaj heslo!
+Zadaj heslo!
+Zadaj heslo!
+Zadaj heslo!
+Hrac5j 100
+Hrac4j 6
+Hrac3j 5
+Hrac6j 0
+Zadaj heslo!
+Hrac5j 95
+Hrac4j 5
+Hrac3j 4
+Hrac6j 0
+Zadaj heslo!
