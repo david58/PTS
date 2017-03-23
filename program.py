@@ -5,25 +5,30 @@ import hashlib
 # vyziada a overi heslo
 def autentifikuj():
     hash_hesla = open("heslo.txt").read().strip()
+    #REVIEW: input vie brat jeden argument a to je vyzva pred vstupom, pouzit radsej namiesto print...input
     print("Zadaj heslo!")
     heslo = input()
     # neda sa jednoducho testovat
     # heslo = getpass.getpass(prompt='Heslo: ', stream=None)
     if(hashlib.sha224(heslo.encode()).hexdigest() == hash_hesla):
+    	#REVIEW: return nie je funkcia, ziadne zatvorky netreba a je to neidiomaticke
         return(True)
     else:
         print("Nesprávne heslo")
+        #REVIEW: opat, return nepotrebuje zatvorky
         return(False)
 
 
 # zoznam hracov
 hraci = {}
 
+#REVIEW: program si ma na zaciatku vypytat nove heslo od uzivatela
 if(autentifikuj()):
     # hash hesla
-    print(open("zadanie.txt").read())
+    print(open("zadanie.txt").read()) #REVIEW: preco vypisat na zaciatku zadanie? to staci v repozitari
     while(True):
         prikaz = input().split()
+        #REVIEW: skarede a neprehladne, rozdelit do viacerych funkcii
         # prazdny riadok
         if(len(prikaz) == 0):
             continue
