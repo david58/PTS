@@ -1,6 +1,7 @@
 import hashlib
 import sys
 
+#REVIEW: chyba dokumentacia cez docstringy
 
 # vyziada a overi heslo
 def autentifikuj():
@@ -55,6 +56,8 @@ def ranking(vsetci):
 def myquit():
     if autentifikuj():
         sys.exit()
+
+#REVIEW: hraci tiez nemusia byt globalna premenna, radsej parameter do funkcii
 # zoznam hracov
 hraci = {}
 
